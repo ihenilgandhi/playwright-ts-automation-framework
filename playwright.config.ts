@@ -1,5 +1,5 @@
 import { defineConfig } from '@playwright/test';
-import { config } from './config/config';
+import config from './config/config';
 
 export default defineConfig({
     testDir: './tests',
